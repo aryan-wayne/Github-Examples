@@ -1,6 +1,9 @@
 name: Greetings-01
 
-on: [pull_request_target, issues]
+on:
+  push:
+    tags:
+      - deploy-stage
 
 jobs:
   greeting:
