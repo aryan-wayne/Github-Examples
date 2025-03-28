@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - deploy-stage
+    branches:
+      - deploy
 
 jobs:
   greeting:
