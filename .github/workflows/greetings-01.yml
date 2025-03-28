@@ -5,7 +5,7 @@ on:
     tags:
       - deploy-stage
     branches:
-      - deploy
+      - 'deploy'
 
 jobs:
   greeting:
